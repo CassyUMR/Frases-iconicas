@@ -1,5 +1,5 @@
 function Frase() {
-    var num = Math.floor((Math.random() * 50) + 1);
+    var num = Math.floor((Math.random() * 55) + 1);
     if (num == 1) {
         document.getElementById('cont1').innerHTML='La gente tarda poco en juzgar, pero mucho en corregirse.'
     }
@@ -150,4 +150,23 @@ function Frase() {
     if (num == 50){
         document.getElementById('cont1').innerHTML='Eres mejor de lo que pareces. Intenta más'
     }
+    if (num == 51){
+        document.getElementById('cont1').innerHTML='Todo lo bueno se acaba y eso está bien'
+    }
+    if (num == 52){
+        document.getElementById('cont1').innerHTML='Todo lo que inicia, tiene un final'
+    }    
+    if (num == 53){
+        document.getElementById('cont1').innerHTML='El dinero SI trae la felicidad'
+    }
+    if (num == 54){
+        document.getElementById('cont1').innerHTML='Maldición, creo que moriré...'
+    }
+    if (num == 55){
+        document.getElementById('cont1').innerHTML='La peor parte de el infierno, no son las llamas, si no la perdidá de toda esperanza...'
+    }
+    if (num == 56){
+        document.getElementById('cont1').innerHTML='Si te sientes malmal, solo levantate y acomoda bien la silla'
+    }
+       
 }
